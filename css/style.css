@@ -280,3 +280,33 @@ footer nav a:hover{text-decoration:underline}
   padding:0;
   display:block;
 }
+
+/* BLOG UZTA — intégration des visuels au fond ivoire, sans carte blanche. */
+.blog-list > .blog-entry .blog-entry-image,
+.blog-list > .blog-entry:nth-of-type(even) .blog-entry-image {
+  background:transparent;
+  border:0;
+  border-radius:0;
+  box-shadow:none;
+  overflow:visible;
+  min-height:0;
+  aspect-ratio:16/9;
+  display:grid;
+  place-items:center;
+}
+.blog-list > .blog-entry .blog-entry-image img {
+  width:auto;
+  height:auto;
+  max-width:75%;
+  max-height:75%;
+  object-fit:contain;
+  padding:0;
+  border:0;
+  border-radius:0;
+  box-shadow:none;
+}
+.blog-list > .blog-entry { gap:12px; padding:10px 0 14px; }
+.blog-list > .blog-separator { margin:0 auto; }
+@media(max-width:700px) {
+  .blog-list > .blog-entry .blog-entry-image { aspect-ratio:16/9; }
+}
