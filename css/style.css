@@ -269,3 +269,14 @@ footer nav a:hover{text-decoration:underline}
   .blog-list>.blog-entry .blog-entry-image{aspect-ratio:16/9}
   .blog-list>.blog-separator{height:27px}
 }
+
+/* UZTA BLOG — visuels plus discrets, cadres strictement inchangés. */
+.blog-list > .blog-entry .blog-entry-image img {
+  width:75%;
+  height:75%;
+  max-width:75%;
+  max-height:75%;
+  object-fit:contain;
+  padding:0;
+  display:block;
+}
