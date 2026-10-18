@@ -221,3 +221,8 @@ footer nav a:hover{text-decoration:underline}
  .blog-entry-copy h2 .blog-title-detail{font-size:clamp(23px,5.7vw,29px)}
  .article-body h1 .blog-title-detail{font-size:clamp(27px,6.5vw,34px)}
 }
+
+/* Logo discret en haut a gauche sur la page Blog uniquement */
+.brand-logo{display:inline-flex;align-items:center;justify-content:center;letter-spacing:normal}
+.brand-logo img{display:block;width:58px;height:58px;object-fit:contain;border-radius:50%}
+@media(max-width:600px){.brand-logo img{width:44px;height:44px}}
