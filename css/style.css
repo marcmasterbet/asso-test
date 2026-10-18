@@ -171,3 +171,53 @@ footer nav a:hover{text-decoration:underline}
 
 .blog-entry.color-red .blog-entry-copy h2 a{color:var(--red)}
 .blog-entry.color-green .blog-entry-copy h2 a{color:var(--green)}
+
+/* Alternance rouge/vert des titres sur les pages individuelles du BLOG */
+.article-color-red .article-body h1,.article-color-red .article-body h2{color:var(--red)}
+.article-color-green .article-body h1,.article-color-green .article-body h2{color:var(--green)}
+
+/* BLOG : typographie des titres, texte strictement inchangé */
+.blog-entry-copy .blog-title-lead,.article-body h1 .blog-title-lead{display:block}
+.blog-entry-copy .blog-title-detail,.article-body h1 .blog-title-detail{display:block;color:#222b29;font-weight:600;margin-top:5px}
+.blog-entry-copy h2 a:hover .blog-title-detail{color:#222b29}
+
+/* UZTA — titres éditoriaux validés : catégorie petite en capitales, détail noir. */
+.blog-entry-copy h2 .blog-title-lead,
+.article-body h1 .blog-title-lead {
+  display:block;
+  font-family:'DM Sans',Arial,sans-serif;
+  font-size:clamp(12px,1.12vw,15px);
+  line-height:1.45;
+  font-weight:700;
+  letter-spacing:.095em;
+  text-transform:uppercase;
+  margin-bottom:10px;
+}
+.blog-entry-copy h2 .blog-title-detail {
+  display:block;
+  font-family:'Playfair Display',Georgia,serif;
+  font-size:clamp(24px,2.65vw,35px);
+  line-height:1.25;
+  font-weight:700;
+  letter-spacing:-.018em;
+  color:#222b29;
+  margin-top:0;
+}
+.article-body h1 .blog-title-detail {
+  display:block;
+  font-family:'Playfair Display',Georgia,serif;
+  font-size:clamp(29px,3.5vw,45px);
+  line-height:1.22;
+  font-weight:700;
+  color:#222b29;
+  margin-top:0;
+}
+.blog-entry.color-red .blog-title-lead, .article-color-red .article-body h1 .blog-title-lead {color:var(--red)}
+.blog-entry.color-green .blog-title-lead, .article-color-green .article-body h1 .blog-title-lead {color:var(--green)}
+.blog-entry.color-red .blog-entry-copy h2 a .blog-title-detail,
+.blog-entry.color-green .blog-entry-copy h2 a .blog-title-detail {color:#222b29}
+@media(max-width:700px){
+ .blog-entry-copy h2 .blog-title-lead,.article-body h1 .blog-title-lead{font-size:12px;letter-spacing:.07em;margin-bottom:8px}
+ .blog-entry-copy h2 .blog-title-detail{font-size:clamp(23px,5.7vw,29px)}
+ .article-body h1 .blog-title-detail{font-size:clamp(27px,6.5vw,34px)}
+}
