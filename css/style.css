@@ -138,8 +138,8 @@ footer nav a:hover{text-decoration:underline}
 .blog-separator img{display:block;width:118px;max-height:28px;object-fit:contain}
 /* Pages individuelles : styles conservés, indépendants de la grille du blog. */
 .article-layout{max-width:870px;padding:42px 25px 105px;margin:auto}
-.article-logo{width:min(100%,360px);height:235px;margin:0 auto 34px;border-radius:12px;background:white;display:grid;place-items:center;overflow:hidden;border:1px solid #e7e4d9}
-.article-logo img{max-width:100%;max-height:100%;width:100%;height:100%;object-fit:contain;padding:15px}
+.article-logo{width:min(100%,680px);height:340px;margin:0 auto 34px;background:transparent;display:flex;align-items:center;justify-content:center;overflow:visible;border:0;border-radius:0;box-shadow:none}
+.article-logo img{display:block;max-width:100%;max-height:100%;width:auto;height:auto;object-fit:contain;padding:0;margin:0;border:0;border-radius:0;box-shadow:none}
 .article-body{max-width:750px;margin:auto}
 .article-body h1{font:700 clamp(30px,3.5vw,45px)/1.2 'Playfair Display',Georgia,serif;margin:0 0 30px;color:var(--ink)}
 .article-body h2{font:700 clamp(23px,2.7vw,32px)/1.3 'Playfair Display',Georgia,serif;color:var(--green);margin:50px 0 19px}
@@ -167,7 +167,7 @@ footer nav a:hover{text-decoration:underline}
  .blog-separator{height:58px;margin:0 0 12px}
  .blog-separator img{width:100px}
  .article-layout{padding:24px 18px 75px}
- .article-logo{height:190px;margin-bottom:25px}
+ .article-logo{height:245px;margin-bottom:25px}
  .article-body h1{font-size:clamp(26px,6.5vw,34px)}
  .article-body h2{font-size:24px;margin-top:36px}
  .article-body p,.article-body li{font-size:15.5px;line-height:1.75}
