@@ -223,7 +223,7 @@ footer nav a:hover{text-decoration:underline}
 .editorial-green .editorial-read{color:var(--green)}
 .editorial-card h2,.editorial-card h2 a{color:#222b29}
 .editorial-separator{grid-column:1/-1;display:flex;align-items:center;justify-content:center;padding:8px 0 15px}
-.editorial-separator img{width:126px;height:auto;max-height:35px;object-fit:contain}
+.editorial-separator img{width:160px;height:auto;max-height:none;object-fit:contain;display:block}
 .editorial-read{font-weight:800;text-decoration:none;font-size:14px;border-bottom:1px solid currentColor;padding-bottom:4px}
 .editorial-container{max-width:890px;margin:auto;padding:42px 28px 100px}
 .editorial-body h1{font:700 clamp(29px,3.5vw,43px)/1.2 'Playfair Display',Georgia,serif;margin:0 0 30px}
