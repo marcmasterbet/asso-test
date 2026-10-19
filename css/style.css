@@ -195,3 +195,9 @@ footer nav a:hover{text-decoration:underline}
 .jeff-article h1 .blog-title-lead{color:var(--red);}
 .professional-return-bottom{margin-top:40px;padding-top:22px;border-top:1px solid rgba(0,0,0,.12);}
 .professional-return-bottom .back-to-pros{margin-bottom:0;}
+
+/* Garage des Pyrénées — proportions adaptées au visuel, sans effet sur les autres professionnels */
+.garage-entry .blog-entry-image img{max-width:min(78%,350px);max-height:200px;width:auto;height:auto;object-fit:contain}
+.garage-article-logo{height:250px;max-width:560px}
+.garage-article-logo img{max-width:100%;max-height:100%;object-fit:contain}
+@media(max-width:700px){.garage-entry .blog-entry-image img{max-width:76%;max-height:175px}.garage-article-logo{height:190px;max-width:90%}}
