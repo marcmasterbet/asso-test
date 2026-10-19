@@ -188,3 +188,10 @@ footer nav a:hover{text-decoration:underline}
 .jeff-entry .blog-title-detail{max-width:23ch;font-size:clamp(21px,1.8vw,25px);overflow-wrap:break-word;hyphens:none}
 .jeff-article h1{max-width:23ch;font-size:clamp(25px,2.8vw,35px);line-height:1.22;overflow-wrap:break-word;hyphens:none}
 @media(max-width:700px){.jeff-entry .blog-title-detail{max-width:100%;font-size:clamp(20px,5.2vw,25px)}.jeff-article h1{max-width:100%;font-size:clamp(24px,5.8vw,31px)}.back-to-pros{margin-bottom:20px}}
+
+/* Titres et navigation validés — UZTA */
+.jeff-entry .blog-title-detail{max-width:100%;overflow-wrap:break-word;}
+.jeff-article h1{max-width:100%;overflow-wrap:break-word;}
+.jeff-article h1 .blog-title-lead{color:var(--red);}
+.professional-return-bottom{margin-top:40px;padding-top:22px;border-top:1px solid rgba(0,0,0,.12);}
+.professional-return-bottom .back-to-pros{margin-bottom:0;}
