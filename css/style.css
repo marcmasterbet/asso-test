@@ -125,7 +125,7 @@ footer nav a:hover{text-decoration:underline}
 .blog-layout>h1{font:700 clamp(38px,4vw,54px)/1.2 'Playfair Display',Georgia,serif;color:var(--green);margin:0 0 30px;text-align:left}
 .blog-list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));column-gap:clamp(28px,4vw,64px);row-gap:0;align-items:start}
 .blog-entry{display:flex;flex-direction:column;min-width:0;padding:0 0 18px;margin:0;gap:18px}
-.blog-entry-image{display:flex;justify-content:center;align-items:center;width:100%;height:260px;min-height:260px;min-width:0;overflow:hidden;text-decoration:none;background:transparent;border:0;border-radius:0;box-shadow:none}
+.blog-entry-image{display:flex;justify-content:flex-start;align-items:center;width:100%;height:260px;min-height:260px;min-width:0;overflow:hidden;text-decoration:none;background:transparent;border:0;border-radius:0;box-shadow:none}
 .blog-entry-image img{display:block;width:auto;height:auto;max-width:82%;max-height:238px;object-fit:contain;padding:0;margin:0;border:0;border-radius:0;box-shadow:none;transition:none}
 .blog-entry-copy{width:100%;min-width:0}
 .blog-entry-copy h2{margin:0;line-height:1.25}
