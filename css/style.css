@@ -209,3 +209,32 @@ footer nav a:hover{text-decoration:underline}
  .coiffure-article-logo{height:220px;max-width:290px}
 }
 
+
+/* Blog éditorial UZTA : isolé des 14 portraits validés. */
+.editorial-main{position:relative;isolation:isolate;min-height:65vh}
+.editorial-main::before{content:"";position:fixed;z-index:-1;pointer-events:none;inset:9% 0 0;background:url('../images/logo-uzta-filigrane.png') center 45%/min(66vw,680px) auto no-repeat;opacity:.06}
+.editorial-index{max-width:1180px;margin:auto;padding:38px 28px 95px}
+.editorial-index>h1{font:700 clamp(38px,4vw,54px)/1.2 'Playfair Display',Georgia,serif;color:var(--green);margin:0 0 34px}
+.editorial-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:26px 45px}
+.editorial-card{padding:27px 4px 31px;border-bottom:1px solid #b8b6a9}
+.editorial-card h2{font:700 clamp(22px,2.25vw,29px)/1.3 'Playfair Display',Georgia,serif;margin:0 0 18px}
+.editorial-card h2 a{color:inherit;text-decoration:none}
+.editorial-red h2,.editorial-red .editorial-read{color:var(--red)}
+.editorial-green h2,.editorial-green .editorial-read{color:var(--green)}
+.editorial-read{font-weight:800;text-decoration:none;font-size:14px;border-bottom:1px solid currentColor;padding-bottom:4px}
+.editorial-container{max-width:890px;margin:auto;padding:42px 28px 100px}
+.editorial-body h1{font:700 clamp(29px,3.5vw,43px)/1.2 'Playfair Display',Georgia,serif;margin:0 0 30px}
+.editorial-body h2{font:700 clamp(23px,2.7vw,31px)/1.3 'Playfair Display',Georgia,serif;margin:43px 0 18px}
+.editorial-body h3{font:700 clamp(19px,2.1vw,24px)/1.35 'Playfair Display',Georgia,serif;margin:30px 0 14px}
+.editorial-red .editorial-body h1,.editorial-red .editorial-body h2,.editorial-red .editorial-body h3{color:var(--red)}
+.editorial-green .editorial-body h1,.editorial-green .editorial-body h2,.editorial-green .editorial-body h3{color:var(--green)}
+.editorial-body p,.editorial-body li{font-size:17px;line-height:1.8;color:#30423e}
+.editorial-body p{margin:0 0 21px}
+.editorial-body ul{padding-left:26px;margin:0 0 25px}
+.editorial-body li{margin:0 0 9px}
+.editorial-body strong em{font-weight:800;font-style:italic}
+.editorial-cta{display:flex;align-items:center;justify-content:center;margin:27px 0 22px;padding:17px 23px;border-radius:8px;background:var(--green);color:white!important;text-decoration:none;font-size:16px;font-weight:800;line-height:1.5;text-align:center;box-shadow:0 8px 22px #00000016}
+.editorial-red .editorial-cta{background:var(--red)}
+.editorial-cta:hover{filter:brightness(.91)}
+.editorial-container .professional-return-bottom{margin-top:42px}
+@media(max-width:700px){.editorial-main::before{background-size:88vw;background-position:center 35%}.editorial-index{padding:25px 18px 65px}.editorial-grid{grid-template-columns:1fr;gap:0}.editorial-card{padding:21px 0 26px}.editorial-container{padding:25px 18px 75px}.editorial-body h1{font-size:clamp(27px,6.4vw,34px)}.editorial-body h2{font-size:24px;margin-top:35px}.editorial-body h3{font-size:20px}.editorial-body p,.editorial-body li{font-size:15.5px;line-height:1.75}.editorial-cta{font-size:14px;padding:14px 13px}}
