@@ -185,12 +185,10 @@ footer nav a:hover{text-decoration:underline}
 /* Navigation des fiches professionnelles et titres Jeff — règles ciblées */
 .back-to-pros{display:inline-flex;align-items:center;gap:8px;max-width:max-content;margin:0 0 24px;color:var(--ink);font:600 14px/1.4 'DM Sans',Arial,sans-serif;text-decoration:none;border-bottom:1px solid currentColor;padding-bottom:4px}
 .back-to-pros:hover,.back-to-pros:focus-visible{color:var(--red)}
-.jeff-entry .blog-title-detail{max-width:23ch;font-size:clamp(21px,1.8vw,25px);overflow-wrap:break-word;hyphens:none}
 .jeff-article h1{max-width:23ch;font-size:clamp(25px,2.8vw,35px);line-height:1.22;overflow-wrap:break-word;hyphens:none}
-@media(max-width:700px){.jeff-entry .blog-title-detail{max-width:100%;font-size:clamp(20px,5.2vw,25px)}.jeff-article h1{max-width:100%;font-size:clamp(24px,5.8vw,31px)}.back-to-pros{margin-bottom:20px}}
+@media(max-width:700px){.jeff-article h1{max-width:100%;font-size:clamp(24px,5.8vw,31px)}.back-to-pros{margin-bottom:20px}}
 
 /* Titres et navigation validés — UZTA */
-.jeff-entry .blog-title-detail{max-width:100%;overflow-wrap:break-word;}
 .jeff-article h1{max-width:100%;overflow-wrap:break-word;}
 .jeff-article h1 .blog-title-lead{color:var(--red);}
 .professional-return-bottom{margin-top:40px;padding-top:22px;border-top:1px solid rgba(0,0,0,.12);}
@@ -211,11 +209,3 @@ footer nav a:hover{text-decoration:underline}
  .coiffure-article-logo{height:220px;max-width:290px}
 }
 
-/* Jeff Bond — retours à la ligne validés, uniquement sur À propos. */
-@media (min-width: 701px) {
-  .jeff-entry .blog-title-detail { max-width: none; font-size: 23px; line-height: 1.3; }
-  .jeff-entry .jeff-title-line { display: block; white-space: nowrap; }
-}
-@media (max-width: 700px) {
-  .jeff-entry .jeff-title-line { display: inline; white-space: normal; }
-}
