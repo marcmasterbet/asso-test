@@ -241,3 +241,23 @@ footer nav a:hover{text-decoration:underline}
 .editorial-cta:hover{filter:brightness(.91)}
 .editorial-container .professional-return-bottom{margin-top:42px}
 @media(max-width:700px){.editorial-main::before{background-size:88vw;background-position:center 35%}.editorial-index{padding:25px 18px 65px}.editorial-grid{grid-template-columns:1fr;gap:0}.editorial-card{padding:21px 0 26px}.editorial-container{padding:25px 18px 75px}.editorial-body h1{font-size:clamp(27px,6.4vw,34px)}.editorial-body h2{font-size:24px;margin-top:35px}.editorial-body h3{font-size:20px}.editorial-body p,.editorial-body li{font-size:15.5px;line-height:1.75}.editorial-cta{font-size:14px;padding:14px 13px}}
+
+/* Navigation mobile UZTA — sans impact sur la version ordinateur. */
+.mobile-menu-toggle{display:none}
+@media(max-width:700px){
+ .top{position:relative;z-index:100;min-height:86px;gap:14px}
+ .top .brand{flex-shrink:0}
+ .mobile-menu-toggle{display:flex;flex-direction:column;justify-content:center;align-items:center;gap:6px;width:48px;height:48px;padding:10px;margin-left:auto;border:1px solid rgba(0,120,77,.25);border-radius:8px;background:transparent;color:var(--green);cursor:pointer;z-index:102}
+ .mobile-menu-toggle span{display:block;width:25px;height:2.5px;border-radius:2px;background:currentColor;transition:transform .2s ease,opacity .2s ease}
+ .mobile-menu-toggle[aria-expanded="true"] span:first-child{transform:translateY(8.5px) rotate(45deg)}
+ .mobile-menu-toggle[aria-expanded="true"] span:nth-child(2){opacity:0}
+ .mobile-menu-toggle[aria-expanded="true"] span:last-child{transform:translateY(-8.5px) rotate(-45deg)}
+ .top nav#mobile-navigation{display:none;position:absolute;top:100%;left:12px;right:12px;z-index:101;background:var(--ivory);padding:16px 20px 20px;border:1px solid rgba(0,120,77,.18);border-radius:10px;box-shadow:0 14px 28px rgba(0,0,0,.13);flex-direction:column;align-items:stretch;gap:4px}
+ .top nav#mobile-navigation.is-open{display:flex}
+ .top nav#mobile-navigation a{display:block;font-size:17px;padding:12px 8px;border-bottom:1px solid rgba(0,120,77,.15)}
+ .top nav#mobile-navigation a.active{color:var(--red);border-bottom-color:var(--red)}
+ .top nav#mobile-navigation a:last-child{border-bottom:0}
+ .back-to-top{right:14px;bottom:18px}
+ .back-to-top.footer-visible{opacity:0;pointer-events:none}
+ footer{padding-right:18px}
+}
