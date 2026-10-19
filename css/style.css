@@ -261,3 +261,7 @@ footer nav a:hover{text-decoration:underline}
  .back-to-top.footer-visible{opacity:0;pointer-events:none}
  footer{padding-right:18px}
 }
+
+/* Logo UZTA officiel : extérieur transparent, blanc intérieur préservé. */
+.logo{background:transparent}
+.brand-logo img{background:transparent}
