@@ -181,3 +181,10 @@ footer nav a:hover{text-decoration:underline}
 .back-to-top:hover,.back-to-top:focus-visible{background:#66201f;transform:translateY(-3px)}
 @media(max-width:600px){.back-to-top{width:42px;height:42px;font-size:24px}}
 @media(prefers-reduced-motion:no-preference){html{scroll-behavior:smooth}}
+
+/* Navigation des fiches professionnelles et titres Jeff — règles ciblées */
+.back-to-pros{display:inline-flex;align-items:center;gap:8px;max-width:max-content;margin:0 0 24px;color:var(--ink);font:600 14px/1.4 'DM Sans',Arial,sans-serif;text-decoration:none;border-bottom:1px solid currentColor;padding-bottom:4px}
+.back-to-pros:hover,.back-to-pros:focus-visible{color:var(--red)}
+.jeff-entry .blog-title-detail{max-width:29ch;overflow-wrap:normal;hyphens:none}
+.jeff-article h1{max-width:27ch;font-size:clamp(26px,3.1vw,39px);line-height:1.22;overflow-wrap:normal;hyphens:none}
+@media(max-width:700px){.jeff-entry .blog-title-detail{max-width:100%}.jeff-article h1{max-width:100%;font-size:clamp(26px,6.2vw,34px)}.back-to-pros{margin-bottom:20px}}
