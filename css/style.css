@@ -175,3 +175,9 @@ footer nav a:hover{text-decoration:underline}
  .article-cta{font-size:14px;width:100%}
  .article-body h1 .blog-title-detail{font-size:clamp(27px,6.5vw,34px)}
 }
+
+/* Retour en haut — page À propos uniquement */
+.back-to-top{position:fixed;right:clamp(14px,3vw,28px);bottom:clamp(14px,3vw,28px);z-index:50;display:flex;align-items:center;justify-content:center;width:46px;height:46px;border-radius:50%;background:#8b2928;color:#fff;text-decoration:none;font-size:27px;line-height:1;box-shadow:0 4px 14px rgba(0,0,0,.18);transition:transform .2s ease,background .2s ease}
+.back-to-top:hover,.back-to-top:focus-visible{background:#66201f;transform:translateY(-3px)}
+@media(max-width:600px){.back-to-top{width:42px;height:42px;font-size:24px}}
+@media(prefers-reduced-motion:no-preference){html{scroll-behavior:smooth}}
