@@ -185,6 +185,6 @@ footer nav a:hover{text-decoration:underline}
 /* Navigation des fiches professionnelles et titres Jeff — règles ciblées */
 .back-to-pros{display:inline-flex;align-items:center;gap:8px;max-width:max-content;margin:0 0 24px;color:var(--ink);font:600 14px/1.4 'DM Sans',Arial,sans-serif;text-decoration:none;border-bottom:1px solid currentColor;padding-bottom:4px}
 .back-to-pros:hover,.back-to-pros:focus-visible{color:var(--red)}
-.jeff-entry .blog-title-detail{max-width:29ch;overflow-wrap:normal;hyphens:none}
-.jeff-article h1{max-width:27ch;font-size:clamp(26px,3.1vw,39px);line-height:1.22;overflow-wrap:normal;hyphens:none}
-@media(max-width:700px){.jeff-entry .blog-title-detail{max-width:100%}.jeff-article h1{max-width:100%;font-size:clamp(26px,6.2vw,34px)}.back-to-pros{margin-bottom:20px}}
+.jeff-entry .blog-title-detail{max-width:23ch;font-size:clamp(21px,1.8vw,25px);overflow-wrap:break-word;hyphens:none}
+.jeff-article h1{max-width:23ch;font-size:clamp(25px,2.8vw,35px);line-height:1.22;overflow-wrap:break-word;hyphens:none}
+@media(max-width:700px){.jeff-entry .blog-title-detail{max-width:100%;font-size:clamp(20px,5.2vw,25px)}.jeff-article h1{max-width:100%;font-size:clamp(24px,5.8vw,31px)}.back-to-pros{margin-bottom:20px}}
