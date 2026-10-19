@@ -120,7 +120,7 @@ footer nav a:hover{text-decoration:underline}
 
 /* BLOG UZTA — structure reconstruite, styles uniques, sans surcharges historiques. */
 .brand-logo{display:inline-flex;align-items:center;justify-content:center;letter-spacing:normal}
-.brand-logo img{display:block;width:78px;height:78px;object-fit:contain;border-radius:50%}
+.brand-logo img{display:block;width:108px;height:108px;object-fit:contain;border-radius:50%}
 .blog-layout{max-width:1180px;margin:0 auto;padding:32px 28px 85px}
 .blog-layout>h1{font:700 clamp(38px,4vw,54px)/1.2 'Playfair Display',Georgia,serif;color:var(--green);margin:0 0 30px;text-align:left}
 .blog-list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));column-gap:clamp(28px,4vw,64px);row-gap:0;align-items:start}
@@ -157,7 +157,7 @@ footer nav a:hover{text-decoration:underline}
 .article-color-red .article-body h1 .blog-title-lead{color:var(--red)}
 .article-color-green .article-body h1 .blog-title-lead{color:var(--green)}
 @media(max-width:700px){
- .brand-logo img{width:62px;height:62px}
+ .brand-logo img{width:84px;height:84px}
  .blog-layout{padding:24px 17px 65px}
  .blog-layout>h1{margin-bottom:24px}
  .blog-list{grid-template-columns:minmax(0,1fr)}
@@ -212,7 +212,7 @@ footer nav a:hover{text-decoration:underline}
 
 /* Blog éditorial UZTA : isolé des 14 portraits validés. */
 .editorial-main{position:relative;isolation:isolate;min-height:65vh}
-.editorial-main::before{content:"";position:fixed;z-index:-1;pointer-events:none;inset:9% 0 0;background:url('../images/logo-uzta-filigrane.png') center 45%/min(66vw,680px) auto no-repeat;opacity:.06}
+.editorial-main::before{content:"";position:fixed;z-index:-1;pointer-events:none;inset:9% 0 0;background:url('../images/logo-uzta-filigrane.png') center 45%/min(66vw,680px) auto no-repeat;opacity:.14}
 .editorial-index{max-width:1180px;margin:auto;padding:38px 28px 95px}
 .editorial-index>h1{font:700 clamp(38px,4vw,54px)/1.2 'Playfair Display',Georgia,serif;color:var(--green);margin:0 0 34px}
 .editorial-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:26px 45px}
