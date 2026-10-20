@@ -66,7 +66,7 @@ footer nav a:hover{text-decoration:underline}
 @media(max-width:700px){
  .mobile-break{display:block}
  .flag{width:100%;margin-top:0;aspect-ratio:3/1}
- .flag .logo{width:32%;max-width:140px}
+ .flag .logo{width:28%;max-width:140px}
  .intro{padding:7px 7px 18px}
  .intro h1{font-size:clamp(19px,7.2vw,24px);line-height:1.04;letter-spacing:-.045em;margin:0 auto 9px;max-width:480px}
  .intro h1::after{width:92px;height:16px;margin:9px auto 0}
