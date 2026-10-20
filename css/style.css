@@ -23,7 +23,7 @@ a{-webkit-tap-highlight-color:transparent}
 .cta:hover{transform:translateY(-3px);box-shadow:0 14px 28px #00000030}
 .cta:focus-visible{outline:3px solid var(--red);outline-offset:5px}
 .arrow{font-size:1.3em;font-weight:400;line-height:1;flex-shrink:0}
-.village{width:100%;height:clamp(120px,15vw,190px);background-color:#e8e4dc;background-image:url('../images/village-reference.jpg');background-position:center;background-size:auto 100%;background-repeat:no-repeat}
+.village{width:100%;height:clamp(120px,15vw,190px);background:url('../images/village-reference.jpg') center 52% / cover no-repeat}
 footer{min-height:100px;padding:24px clamp(24px,6vw,90px);background:var(--green);color:white;display:flex;justify-content:space-between;align-items:center;gap:20px}
 footer span{font:500 clamp(27px,3vw,40px) Georgia,serif;letter-spacing:.18em}
 footer nav{display:flex;gap:clamp(14px,4vw,55px)}
